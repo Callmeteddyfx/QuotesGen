@@ -12,16 +12,16 @@ body{
 #textboxcontainer{
     background-color:#00D188;
     width: 100%;
-    flex: 9;
+    flex: 8;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
 }
 
 #buttonscontainer{
     background-color: #00D188;
     width: 100%;
-    flex: 1;
+    flex: 2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,6 +51,10 @@ body{
     margin: 150px;
     padding: 10px;
     border-radius: 20rem;
+}
+
+#image-refresh:hover,#image-share:hover{
+    opacity: 50%;
 }
 
 #image-share{
@@ -94,6 +98,10 @@ body{
 
     #image-share{
         width: 40px;
+    }
+
+    #image-refresh:hover,#image-share:hover{
+        opacity: 50%;
     }
   }
   

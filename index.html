@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC+Guides&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+   
     <title>QuotesGen</title>
 </head>
 <body>
@@ -14,9 +18,8 @@
         </div>
     </div>
     <div id="buttonscontainer">
-        <img src="./assets/refresh_24dp_000000.png" id="image-refresh" onclick= getQuote()>
-        <button onclick="getQuote()">Refresh</button>
-        <img src="./assets/share_24dp_000000.png" id="image-share">
+        <img src="./assets/refresh_24dp_000000.png" id="image-refresh" onclick='getQuote()'>
+        <img src="./assets/share_24dp_000000.png" id="image-share" onclick="shareQuote()">
     </div>
 </body>
 </html>
